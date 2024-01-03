@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+#kalkulator {
+    margin-top: 20px;
+}
+
+input {
+    background-color: orange;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+button {
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#hasil {
+    margin-top: 20px;
+}
+.Alas::-webkit-input-placeholder{
+    color: black;
+}
+.Tinggi::-webkit-input-placeholder{
+  color: black;
+}
+::placeholder {
+  font-family: 'Lucida Sans';
+  font-size: 25px;
+  font-weight: normal;
+}
+.JudulKeliling {
+  background-color: orange;
+  padding: 50px;
+}
+hr {
+  border: 0;
+  border-top: 3px double black;
+}
+.JudulLuas {
+  background-color: skyblue;
+  padding: 50px;
+}
+.AlasLuas::-webkit-input-placeholder{
+  color: black;
+}
+.AlasLuas {
+  background-color: skyblue;
+}
+.TinggiLuas::-webkit-input-placeholder{
+  color: black;
+}
+.TinggiLuas {
+  background-color: skyblue;
+}
+.ButtonLuas {
+  background-color: skyblue;
+}
+.Reset {
+  background-color: skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
